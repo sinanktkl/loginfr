@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './Context/AuthContext';
 import Login from './Pages/Login';
 import Dashboard from './Pages/Dashboard';
-import ProtectedRoute from './components/ProtectedRoute';
+import ProtectedRoute from './Components/ProtectedRoute';
 import Home from './Pages/Home';
 
 function App() {
